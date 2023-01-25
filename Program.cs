@@ -80,8 +80,8 @@ namespace Program {
         {
             VotingMachine machine = new VotingMachine();
             CandidateA candidateA = new CandidateA("Oldri", "Green");
-            CandidateB candidateB = new CandidateB("Loris", "Liberal");
-            CandidateC candidateC = new CandidateC("Arjola Ridvan", "Conservative");
+            CandidateB candidateB = new CandidateB("Bart", "Liberal");
+            CandidateC candidateC = new CandidateC("Stewie", "Conservative");
             bool setEndVoting = false;
 
             while (!setEndVoting)
